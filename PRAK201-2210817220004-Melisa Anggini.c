@@ -2,7 +2,7 @@
 
 int main()
 {
-    char nama[14],nim[13],kelas[1],ttl[21],alamat[13],hobby[9],hp[12];
+    char nama[30],nim[30],kelas[30],ttl[30],alamat[30],hobby[30],hp[30];
 
     printf("Nama                  :");
     gets(nama);
@@ -18,5 +18,13 @@ int main()
     gets(hobby);
     printf("No. HP                :");
     gets(hp);
+    printf("\n\n");
+    printf("Nama                  :%s\n", nama);
+    printf("NIM                   :%s\n", nim);
+    printf("Kelas Paralel         :%s\n", kelas);
+    printf("Tempat/Tanggal Lahir  :%s\n", ttl);
+    printf("Alamat                :%s\n", alamat);
+    printf("Hobby                 :%s\n", hobby);
+    printf("No. HP                :%s\n", hp);
     return 0;
 }
